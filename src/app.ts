@@ -16,5 +16,6 @@ calcButton?.addEventListener('click', () => {
 
 
 function calcSurface(sugar: number, length: number):number {
-    return 2 * Math.PI * Math.pow(sugar, 2) + 2 * Math.PI * sugar * length
+    return 2 * Math.PI * sugar * (sugar + length)
+    /*2 * Math.PI * Math.pow(sugar, 2) + 2 * Math.PI * sugar * length*/ 
 }

@@ -11,5 +11,6 @@ calcButton === null || calcButton === void 0 ? void 0 : calcButton.addEventListe
     length.value = "";
 });
 function calcSurface(sugar, length) {
-    return 2 * Math.PI * Math.pow(sugar, 2) + 2 * Math.PI * sugar * length;
+    return 2 * Math.PI * sugar * (sugar + length);
+    /*2 * Math.PI * Math.pow(sugar, 2) + 2 * Math.PI * sugar * length*/
 }

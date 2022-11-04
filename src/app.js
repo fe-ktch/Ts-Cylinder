@@ -1,3 +1,12 @@
+/*
+* File: app.js
+* Author: Sangare F. Felisha
+* Copyright: 2022, Sangare F. Felisha
+* Group: SZOFT II N
+* Date: 2022-10-29
+* Github: https://github.com/fe-ktch/Ts-Cylinder
+* Licenc: GNU GPL
+*/
 const calcButton = document.querySelector('#calcButton');
 const result = document.querySelector('#output');
 calcButton === null || calcButton === void 0 ? void 0 : calcButton.addEventListener('click', () => {
